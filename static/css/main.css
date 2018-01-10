@@ -9,6 +9,19 @@ body {
     flex-direction: column;
 }
 
+header {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+}
+
+postlist {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+    max-width: 600px;
+}
+
 main {
     margin: auto;
     padding: 25px;

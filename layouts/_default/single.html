@@ -2,7 +2,7 @@
 
 <main>
 
-    {{ partial "list-item" . }}
+    <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
 
     <br> <div class="text-justify">{{ .Content }}</div>
 
